@@ -1,0 +1,45 @@
+footer{
+    background: #121315;
+    height: auto; /* Melhor deixar auto, para que cresça conforme o conteúdo */
+    padding: 4rem 0; /* Espaço interno em cima e embaixo */
+    text-align: center; /* Centraliza tudo que estiver dentro */
+}
+
+footer .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 250px;
+    border-radius: 25px;
+    background-color: #3BA55C;
+    color: white;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+footer img{
+    height: 150px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.342);
+    padding: 0 7rem 0 7rem;
+}
+
+.listas{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-evenly;
+    margin: 3rem;
+    
+}
+
+footer ul{
+    list-style: none;
+    text-align: left;
+}
+
+
+footer ul >li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
